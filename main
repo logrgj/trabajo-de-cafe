@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Café Aroma</h1>
+        <p>¡Bienvenidos al mejor café de la ciudad!</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="thankyou.html">Gracias</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+
+        <!-- Introducción -->
+        <section>
+            <h2>Descubre el sabor auténtico de Café Aroma</h2>
+            <p>Nos apasiona el café y estamos aquí para ofrecerte una experiencia única en cada taza.</p>
+        </section>
+
+        <!-- Preguntas -->
+        <section class="question">
+            <h3>¿Prefieres el café con azúcar?</h3>
+            <button onclick="window.location.href='sugar_yes.html'">Sí</button>
+            <button onclick="window.location.href='sugar_no.html'">No</button>
+        </section>
+
+        <section class="question">
+            <h3>¿Quieres leche en tu café?</h3>
+            <button onclick="window.location.href='milk_yes.html'">Sí</button>
+            <button onclick="window.location.href='milk_no.html'">No</button>
+        </section>
+
+        <!-- Botón de envío -->
+        <section>
+            <button onclick="window.location.href='thankyou.html'">Enviar</button>
+        </section>
+
+    </div>
+
+</body>
+</html>
