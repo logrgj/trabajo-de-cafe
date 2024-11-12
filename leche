@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café con Leche</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>¡Perfecto, Café con Leche!</h1>
+    </header>
+
+    <div class="container">
+        <p>¡Disfruta de la suavidad de la leche en tu café!</p>
+        <button onclick="window.location.href='index.html'">Volver al inicio</button>
+    </div>
+
+</body>
+</html>
