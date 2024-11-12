@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>¡Gracias por elegir Café Aroma!</h1>
+    </header>
+
+    <div class="container">
+        <p>Nos alegra que hayas personalizado tu experiencia de café.</p>
+        <p>¡Esperamos verte pronto!</p>
+        <button onclick="window.location.href='index.html'">Volver al inicio</button>
+    </div>
+
+</body>
+</html>
